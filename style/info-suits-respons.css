@@ -1,0 +1,167 @@
+@media screen and (max-width:768px){
+    .background{
+        height: 400px;
+    }
+    .poster{
+        margin-top: 50px;
+        height: 400px;
+    }
+    .texto{
+        width: 90%;
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .link{
+        margin-top: 45px;
+        margin-left: 85px;
+    }
+    .bloco p{
+        font-size: 12px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:645px){
+    .background{
+        height: 320px;
+    }
+    .poster{
+        margin-top: 50px;
+        width: 280px;
+        height: 320px;
+    }
+    .link{
+        margin-top: 55px;
+        margin-left: 65px;
+    }
+    .wrapper{
+        margin-top: 10%;
+    }
+    .bloco p{
+        font-size: 12px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:597px){
+    .background{
+        height: 300px;
+    }
+    .poster{
+        margin-top: 50px;
+        height: 300px;
+    }
+    .titulo{
+        margin-block-end: 50px;
+    }
+
+    .link{
+        font-size: 14px;
+        margin-top: 55px;
+        margin-left: 50px;
+    }
+    .wrapper{
+        margin-top: 10%;
+    }
+    .bloco p{
+        font-size: 12px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:540px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .elenco{
+        margin-left: 10px;
+    }
+    .bloco p{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:480px){
+    .background{
+        height: 260px;
+    }
+    .poster{
+        margin-top: 50px;
+        height:260px;
+    }
+    .descricao{
+        margin-top: 55px;
+    }
+    .titulo{
+        margin-block-end: 20px;
+    }
+    .sinopse{
+        margin: 0;
+    }
+    .criacao{
+        font-size: 12px;
+    }
+    .link{
+        font-size: 12px;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    .bloco{
+        width: 400px;
+        margin-left: 0;
+    }
+   .elenco{
+        width: 70%;
+        margin-left: 10px;
+       
+    }
+    .bloco p{
+        font-size: 10px;
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+}
+
+@media screen and (max-width:380px){
+    .background{
+        height: 260px;
+    }
+    .poster{
+        margin-top: 50px;
+        height:260px;
+    }
+    .descricao{
+        margin-top: 55px;
+    }
+    .titulo{
+        margin-block-end: 20px;
+    }
+    .sinopse{
+        margin: 0;
+    }
+    .criacao{
+        font-size: 12px;
+    }
+    .link{
+        font-size: 12px;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    .wrapper{
+        width: 50%;
+        margin-top: 5%;
+    }
+    .bloco{
+        padding: 1px;
+        margin: 0;
+        width: 374px;
+    }
+    .elenco{
+        margin-left: 9px;
+        margin-right: 3;
+    }
+    .bloco p{
+        font-size: 10px;
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+    

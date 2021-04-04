@@ -1,0 +1,146 @@
+:root{
+    /*Variaveis*/
+    --vermelho: #e50914;
+    --preto: #141414;
+    --pelicula: linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60) 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+
+header nav a{
+    color: #AAAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+body{
+    background-color: var(--preto);
+}
+
+.link{
+    margin-top: 60px;
+    margin-left: 130px;
+}
+
+.botao{
+    border-radius: 5px;
+    padding: 15px;
+    background: var(--pelicula);
+}
+
+i{
+    color: red;
+}
+
+.botao:hover{
+    background: white;
+    color: black;
+}
+
+.background{
+    background: var(--pelicula), url('../img/suits-capa2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height:450px;
+}
+
+.inicio{
+    display: flex;
+    align-items: center;
+}
+
+.poster{
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 1%;
+    width: 300px;
+    height: 450px;
+}
+
+.descricao{
+    margin-block-end: 30px;
+    margin-left: 5%;
+    display: block;
+
+}
+
+.titulo{
+    margin-block-end: 70px;
+    font-family: sans-serif;
+}
+
+
+.sinopse{
+    font-size: 22px;
+    font-family: Arial;
+
+}
+
+.texto{
+    width: 80%;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.criacao{
+    margin-top: 10px;
+}
+
+.wrapper{
+    margin-top: 6%;
+
+}
+
+.wrapper h2{
+    margin-left: 2%;
+    font-size: 32px;
+    font-family:  Helvetica, sans-serif;
+}
+
+.bloco{
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 2px;
+    display: flex;
+    padding: 2px;
+}
+
+.elenco{
+    width: 65%;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+.bloco p{
+    font-family:  sans-serif;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 20px;
+}

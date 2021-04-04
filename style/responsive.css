@@ -1,0 +1,89 @@
+@media screen and (min-width:2560px){
+    .filme-principal{
+        height: 600px;
+        font-size: 150%;
+    }
+    .botao{
+        width: 300px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1015px){
+    .filme-principal .container{
+       margin-top: 5%;
+    }
+}
+
+@media screen and (max-width:840px){
+    .filme-principal .container{
+       margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .filme-principal .descricao{
+        margin-bottom: 30px;
+    }
+    .botao{
+        margin-top: 7px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width:750px){
+   .filme-principal .descricao{
+        width: 60%;
+    }
+
+}
+
+
+@media screen and (max-width:619px){
+    .filme-principal .descricao{
+        margin-bottom: 5px;
+    }
+    .filme-principal{
+        height: 40%;
+    }
+}
+@media screen and (max-width:547px){
+    
+    .filme-principal .descricao{
+       display: none;
+    }
+  
+    .carrosel-filmes{
+        margin-top: 10px;
+    }
+    .descricao{
+        font-size: 0px;
+    }
+    .botoes{
+        margin-top: 30px;
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+    .botao {
+        font-size: 10px;
+        width: 120px;
+    }
+    .botao a:start{
+    color:black;
+    }
+
+    
+}
+
+/* @media screen and (max-width: 360px){
+    .filme-principal{
+       height: 350px;
+    }
+   .filme-principal .descricao{
+        margin-bottom: 2px;
+    }
+} */

@@ -11,7 +11,7 @@
 
 @media screen and (max-width:1015px){
     .filme-principal .container{
-       margin-top: 5%;
+       margin-top: 3%;
     }
 }
 
@@ -47,43 +47,45 @@
     .filme-principal .descricao{
         margin-bottom: 5px;
     }
-    .filme-principal{
-        height: 40%;
+    .filme-principal .descricao{
+        margin-bottom: 4%;
     }
 }
 @media screen and (max-width:547px){
     
-    .filme-principal .descricao{
-       display: none;
+    .filme-principal .descricao{ display: none; }
+
+    .filme-principal .container{
+        width: 100%;
+        padding: 60px 0 0 0; 
+        margin-left: 5%;
     }
   
-    .carrosel-filmes{
-        margin-top: 10px;
-    }
-    .descricao{
-        font-size: 0px;
-    }
+    .carrosel-filmes{ margin-top: 2%; }
+    
     .botoes{
         margin-top: 30px;
-        margin-right: 0px;
         margin-bottom: 40px;
     }
-    .botao {
-        font-size: 10px;
-        width: 120px;
-    }
-    .botao a:start{
-    color:black;
-    }
+    .botao { 
+        padding: 10px 20px 10px 20px;
+        font-size: 12px; }
 
-    
+    .botao a:start{ color:black; }
+
 }
 
-/* @media screen and (max-width: 360px){
+
+
+@media screen and (max-width: 360px){
     .filme-principal{
        height: 350px;
     }
    .filme-principal .descricao{
         margin-bottom: 2px;
     }
-} */
+    .botao{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+}

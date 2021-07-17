@@ -118,23 +118,30 @@
         margin-left: 0px;
     }
 }
-}
 
-@media screen and (max-width:380px){
+
+@media screen and (max-width:420px){
     .background{
-        height: 260px;
+        height: 250px;
+        width: 100%;
+    }
+
+    .inicio{
+        width: 100%;
     }
     .poster{
-        margin-top: 50px;
-        height:260px;
+        margin-top: 55px;
+        height: 215px;
     }
     .descricao{
-        margin-top: 55px;
+        margin-top: 40px;
     }
     .titulo{
-        margin-block-end: 20px;
+        font-size: 18px;
+        margin-bottom: 10px;
     }
     .sinopse{
+        font-size: 16px;
         margin: 0;
     }
     .criacao{
@@ -142,26 +149,36 @@
     }
     .link{
         font-size: 12px;
-        margin-top: 50px;
-        margin-left: 40px;
+        margin-top: 45px;
+        margin-left: 30px;
     }
     .wrapper{
-        width: 50%;
-        margin-top: 5%;
+        width: 100%;
+        margin-top: 6%;
+        display: flex;
+        flex-direction:column;
     }
     .bloco{
         padding: 1px;
         margin: 0;
-        width: 374px;
+        width: 100%;
+    }
+    .wrapper h2{
+        font-size: 16px;
+
+
+        margin-top: 20%;
     }
     .elenco{
         margin-left: 9px;
-        margin-right: 3;
+        margin-right: 3px;
     }
     .bloco p{
         font-size: 10px;
         text-align: center;
         margin-left: 0px;
     }
+
+
 }
     
